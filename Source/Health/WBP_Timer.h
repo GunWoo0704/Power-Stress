@@ -30,8 +30,10 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Timer")
     void ResetTimer();
 
+    float ElapsedTime;
+
 private:
-    float ElapsedTime;  // Duration 대신 ElapsedTime으로 변경
+      // Duration 대신 ElapsedTime으로 변경
     bool bIsTimerActive;
 
     void UpdateTimerDisplay();
