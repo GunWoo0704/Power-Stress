@@ -15,7 +15,8 @@ public class Health : ModuleRules
             "InputCore",
             "UMG",           // UI 위젯용
             "Slate",         // UI용
-            "SlateCore"      // UI용
+            "SlateCore",      // UI용
+            "EnhancedInput"
         });
 
         PrivateDependencyModuleNames.AddRange(new string[] { });
