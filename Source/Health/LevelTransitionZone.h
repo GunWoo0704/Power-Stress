@@ -29,9 +29,9 @@ protected:
 
     // Target level name to load
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Level Transition")
-    FName TargetLevelName = "/Game/TokyoStylizedEnvironment/Maps/Tokyo";
+    FName TargetLevelName = "/Game/JumpThon_Art/Map/JumpThon_Map";
 
-    // Loading screen widget class  Ãß°¡!
+    // Loading screen widget class  ï¿½ß°ï¿½!
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Level Transition")
     TSubclassOf<UUserWidget> LoadingScreenClass;
 
